@@ -1,0 +1,270 @@
+body{
+	font:15px /1.5  Sans-serif;
+	padding:0;
+	margin:0;
+	background-color: #fff;
+}
+
+.container{
+	width: 95%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header{
+	background-color: #35424a;
+	color:#ffffff;
+	padding: 10 0 0 0;
+	min-height: 50px;
+	border-bottom: #e8491d 3px solid;
+}
+header #branding{
+	float: left;
+}
+span{
+	color:#e8491d;
+}
+header nav{
+	float: right;
+	padding: 10px 0 0 0;
+	margin-top:10px;
+}
+header li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header a{
+	color:#ffffff;
+	text-decoration-line: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header a:hover{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+/*Editing The Showcase*/
+#showcase{
+	min-height: 300px;
+	background: url(./working.jpg) no-repeat;
+	display: block;
+	color: #f4f4f4;
+	text-align: center;
+}
+#showcase h1{
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	font-size: 18px;
+}
+/*editing Newsletter*/
+#newsletter{
+	color:#fff;
+	width:100%;
+	background-color: #35424a;
+}
+#newsletter h2{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+input{
+	padding: 4px;
+	height: 25px;
+	width:200px;
+}
+.button_1{
+height: 38px;
+background-color: #e8491d;
+border:none;
+padding: 0 20px 0 20px;
+color: #ffffff;
+margin-bottom: 10px;
+
+}
+
+/*editing get quote form*/
+.input_1{
+	padding: 4px;
+	height: 25px;
+	width:85%;
+	margin:10px;
+}
+.button{
+height: 38px;
+background-color: #e8491d;
+border:none;
+padding: 0 20px 0 20px;
+color: #ffffff;
+margin-bottom: 10px;
+width: 85%;
+border-radius: 10px
+}
+
+#boxes{
+	margin-top: 20px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+/*editing the desctription boxes*/
+#boxes .box{
+	float: left;
+	width:30%;
+	align-self: center;
+	padding: 10px;
+	text-align: center;
+}	
+#boxes .box img{
+	width: 90px;
+	height: 90px
+}
+/*editing footer*/
+footer{
+	background-color: #e8491d;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px;
+	clear: both;
+	position: relative;
+
+}
+.article{
+	background-color: #fff;
+	float: left;
+	width: 65%;
+	margin: 20px;
+}
+.side{
+	float: right;
+	background-color:#35424a;
+	width: 25%;
+	margin-top: 80px;
+	padding: 5px;
+	border:#35424a 2px solid;
+	border-radius: 10px;
+	color: #f4f4f4;
+}
+.sideform{
+	float: right;
+	background-color:#35424a;
+	width: 25%;
+	margin-top: 150px;
+	padding: 5px;
+	border:#35424a 2px solid;
+	border-radius: 10px;
+	color: #f4f4f4;
+	text-align: center;
+}
+.loginform{
+
+	background-color:#35424a;
+	width: 25%;
+	height: 30%;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 120px;
+	padding: 5px;
+	border:#e8491d 2px;
+	border-style: dashed;
+	border-radius: 10px;
+	color: #f4f4f4;
+	text-align: center;
+}
+
+.side input{
+	border:#35424a;
+	border-radius: 10px;
+}
+.side h1{
+	text-align: center;
+}
+.article h1
+{
+	font-weight: bold;
+	font-size: 30px;
+}
+.li{
+	background-color:#e6e6e6;
+	list-style: none;
+	margin :20px;
+	border:#cccccc 2px solid;
+	border-radius:10px
+	background-color:grey;
+	border-radius: 7px;
+	padding:10px;
+}
+
+#Login{
+	background: url(./working.jpg) no-repeat;
+	background-size: auto;
+	align-items: center;
+}
+#Login footer{
+	background-color:#35424a; 
+}
+.error{
+	border:red 3px;
+}
+a{
+	text-decoration: none;
+}
+
+@media(max-width: 768px){
+	body{
+		width: 100%;
+	}
+	header,header nav, header #branding,header nav li,#newsletter h2,#newsletter form,
+	#boxes .box, .side, .article,.button_1,#newsletter input,.li,.sideform,footer,#newsletter,#showcase{
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	}
+
+	#newsletter input{
+		margin-bottom: 5px;
+		height: 15px;
+	}
+	
+	header #branding{
+		margin-top: 10px;
+		margin-bottom: 0;
+		padding: 0;
+	}
+	header li,header nav{
+		text-align: center;
+		margin-top:0px;
+		padding:0px;
+		width:95%;
+	}
+	.side p  {
+		padding-right: 20px;
+	}
+	article p{
+		padding-right: 40px;
+	}
+	.li {
+		text-align: left;
+		margin-right: 40px;
+		width:80%;
+	}
+	.sideform{
+		margin: auto;
+		margin-top: 20px;
+		width:80%;
+	}
+	.loginform{
+		width: 50%;
+	}
+}
